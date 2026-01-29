@@ -1,0 +1,55 @@
+# Compiled objects
+*.o
+*.s
+*.d
+*.obj
+*.so
+*.dylib
+*.a
+
+# Executables
+*.exe
+*.out
+a.out
+
+# Basilisk generated
+*.c.page
+_*.[ch]
+log-*
+plot-*
+
+# Build directories
+build/
+_build/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Debug files
+*.dSYM/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Data files (optional - may want to track some)
+*.dat
+*.vtk
+*.pvd
+*.ppm
+*.gfs
+*.mp4
+
+# Project-specific
+basilisk/
+.project_config
+simulationCases/*/log
+simulationCases/*/out
+simulationCases/*/warn
+simulationCases/*/plots
+simulationCases/*/display.html
+simulationCases/*/keller-segel
+simulationCases/*/brusselator

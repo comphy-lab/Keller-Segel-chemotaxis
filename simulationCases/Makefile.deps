@@ -1,0 +1,13 @@
+# Automatically generated using 'make Makefile.tests'
+# DO NOT EDIT, edit 'Makefile' instead
+ALLTESTS = \
+	brusselator.c \
+	keller-segel.c \
+
+TESTS = \
+
+SPECIAL_TESTS = \
+
+ALLPAGES = \
+	brusselator.c.page \
+	keller-segel.c.page \
